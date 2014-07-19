@@ -28,7 +28,7 @@
             ]]></add>
         </operation>
         <operation>
-            <search position="before" offset="2"><![CDATA[<table class="form">]]></search>
+            <search position="after"><![CDATA[<form action="<?php echo $action; ?>" method="post" enctype="multipart/form-data" id="form">]]></search>
             <add><![CDATA[ 
 				<table class="form form_modificado">
 		            <tr>
